@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "laravel",
@@ -38,7 +39,7 @@
     "gulp-if": "^2.0.0",
     "gulp-ignore": "^2.0.0",
     "filesize": "^2.0.0",
-    "snyk": "^1.49.2"
+    "snyk": "^1.85.0"
   },
   "snyk": true
 }
