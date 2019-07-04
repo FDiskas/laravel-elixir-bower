@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -31,3 +31,28 @@ patch:
   'npm:http-signature:20150122':
     - gulp-base64 > request > http-signature:
         patched: '2018-07-02T22:53:08.471Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-04T07:19:57.251Z'
