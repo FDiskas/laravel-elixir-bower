@@ -39,7 +39,7 @@
     "gulp-if": "^2.0.0",
     "gulp-ignore": "^2.0.0",
     "filesize": "^2.0.0",
-    "snyk": "^1.88.0"
+    "snyk": "^1.189.0"
   },
   "snyk": true
 }
