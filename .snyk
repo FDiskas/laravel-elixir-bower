@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -31,3 +31,6 @@ patch:
   'npm:http-signature:20150122':
     - gulp-base64 > request > http-signature:
         patched: '2018-07-02T22:53:08.471Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T07:22:19.994Z'
